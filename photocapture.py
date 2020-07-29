@@ -4,8 +4,6 @@ import  RPi.GPIO as GPIO
 from picamera import PiCamera
 from datetime import datetime
 from os import system
-
-
 import socket
 import sys
 
@@ -31,7 +29,7 @@ print('connecting to {} port {}'.format(*server_address))
 sock.connect(server_address)
 
 try:
-
+hardware
     image = {'photo': open('/home/pi/Desktop/gearbox/image.jpg', 'rb')}
     sock.sendall(image)
 
