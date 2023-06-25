@@ -32,6 +32,6 @@ print(distance)
 while distance :
 	sms = africastalking.SMS
 	sender = "30487"
-	response = sms.send("Hello Ngacha there is an intruder at your place.", ["+254711560388"], sender)
+	response = sms.send("Hello Ngacha there is an intruder at your place.", ["+254711"], sender)
 	print(response)
 	break
